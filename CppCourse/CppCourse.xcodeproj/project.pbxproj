@@ -13,6 +13,7 @@
 		C585200427434C1900C011BE /* pointIntegratedApplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C585200327434C1900C011BE /* pointIntegratedApplication.cpp */; };
 		C5852006274355B400C011BE /* structBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C5852005274355B400C011BE /* structBase.cpp */; };
 		C585200827439A2600C011BE /* structArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C585200727439A2600C011BE /* structArray.cpp */; };
+		C585200A2743ABE300C011BE /* structCaseOne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C58520092743ABE300C011BE /* structCaseOne.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		C585200327434C1900C011BE /* pointIntegratedApplication.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pointIntegratedApplication.cpp; sourceTree = "<group>"; };
 		C5852005274355B400C011BE /* structBase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = structBase.cpp; sourceTree = "<group>"; };
 		C585200727439A2600C011BE /* structArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = structArray.cpp; sourceTree = "<group>"; };
+		C58520092743ABE300C011BE /* structCaseOne.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = structCaseOne.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				C585200327434C1900C011BE /* pointIntegratedApplication.cpp */,
 				C5852005274355B400C011BE /* structBase.cpp */,
 				C585200727439A2600C011BE /* structArray.cpp */,
+				C58520092743ABE300C011BE /* structCaseOne.cpp */,
 			);
 			path = CppCourse;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 				C585200427434C1900C011BE /* pointIntegratedApplication.cpp in Sources */,
 				C585200227434A1500C011BE /* pointAndFunction.cpp in Sources */,
 				C585200827439A2600C011BE /* structArray.cpp in Sources */,
+				C585200A2743ABE300C011BE /* structCaseOne.cpp in Sources */,
 				C58520002743479300C011BE /* pointAndArray.cpp in Sources */,
 				C5851FF62742970100C011BE /* main.cpp in Sources */,
 				C5852006274355B400C011BE /* structBase.cpp in Sources */,
