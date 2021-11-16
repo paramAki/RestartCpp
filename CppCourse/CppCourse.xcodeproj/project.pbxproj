@@ -10,6 +10,7 @@
 		C5851FF62742970100C011BE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C5851FF52742970100C011BE /* main.cpp */; };
 		C58520002743479300C011BE /* pointAndArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C5851FFF2743479300C011BE /* pointAndArray.cpp */; };
 		C585200227434A1500C011BE /* pointAndFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C585200127434A1500C011BE /* pointAndFunction.cpp */; };
+		C585200427434C1900C011BE /* pointIntegratedApplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C585200327434C1900C011BE /* pointIntegratedApplication.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		C5851FF52742970100C011BE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C5851FFF2743479300C011BE /* pointAndArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pointAndArray.cpp; sourceTree = "<group>"; };
 		C585200127434A1500C011BE /* pointAndFunction.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pointAndFunction.cpp; sourceTree = "<group>"; };
+		C585200327434C1900C011BE /* pointIntegratedApplication.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pointIntegratedApplication.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				C5851FF52742970100C011BE /* main.cpp */,
 				C5851FFF2743479300C011BE /* pointAndArray.cpp */,
 				C585200127434A1500C011BE /* pointAndFunction.cpp */,
+				C585200327434C1900C011BE /* pointIntegratedApplication.cpp */,
 			);
 			path = CppCourse;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C585200427434C1900C011BE /* pointIntegratedApplication.cpp in Sources */,
 				C585200227434A1500C011BE /* pointAndFunction.cpp in Sources */,
 				C58520002743479300C011BE /* pointAndArray.cpp in Sources */,
 				C5851FF62742970100C011BE /* main.cpp in Sources */,

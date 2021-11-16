@@ -15,7 +15,7 @@ void swapAB(int * m, int * n){
     *n = temp;
 }
 
-int main(){
+int pointSwap(){
     int a = 1, b = 2;
     swapAB(&a, &b);
     cout << "a = " << a << endl;
