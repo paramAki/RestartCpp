@@ -33,6 +33,7 @@ void addPerson(AddressList * als);
 void showAddressList(AddressList * als);
 int isExist(AddressList * als, string name);
 void searcherPerson(AddressList * als);
+void deletePerson(AddressList * als);
 
 int main() {
     int select = 0;
@@ -53,6 +54,7 @@ int main() {
                 showAddressList(&als);
                 break;
             case 3:// 3、删除联系人
+                deletePerson(&als);
                 break;
             case 4:// 4、查找联系人
                 searcherPerson(&als);
@@ -186,6 +188,23 @@ void searcherPerson(AddressList * als){
         showPerson(als->personArr[index]);
     }else{
         cout << "联系人不存在" << endl;
+        return;
     }
-    
+}
+
+void deletePerson(AddressList * als){
+    string name;
+    cout << "请输入要删除的联系人：";
+    cin >> name;
+    int index = isExist(als, name);
+    if(index == -1){
+        cout << "联系人不存在！";
+        return;
+    }else{
+        for(int i = index; i < als->m_Size; i++){
+            als->personArr[i] = als->personArr[i + 1];
+        }
+        als->m_Size--;
+        cout << "删除成功";
+    }
 }
