@@ -26,6 +26,56 @@ struct AddressList{
     int m_Size;
 };
 
+// 函数声明
+void showPerson(Person person);
+void showMenu();
+void addPerson(AddressList * als);
+void showAddressList(AddressList * als);
+int isExist(AddressList * als, string name);
+void searcherPerson(AddressList * als);
+
+int main() {
+    int select = 0;
+    AddressList als;
+    als.m_Size = 0;
+    
+    while(true){
+        
+        showMenu();
+        
+        cin >> select;
+        
+        switch(select){
+            case 1:// 1、增加联系人
+                addPerson(&als);
+                break;
+            case 2:// 2、显示联系人
+                showAddressList(&als);
+                break;
+            case 3:// 3、删除联系人
+                break;
+            case 4:// 4、查找联系人
+                searcherPerson(&als);
+                break;
+            case 5:// 5、修改联系人
+                break;
+            case 6:// 6、清空联系人
+                break;
+            case 0:// 0、退出通讯录
+                cout << "welcome to use address list manager system next time" << endl;
+                cout << "press any key to continue......" << endl;
+                getchar();
+                return 0;
+                break;
+            default:
+                break;
+        }
+        system("clear");
+        
+    }
+    return 0;
+}
+
 // 菜单
 void showMenu(){
     cout << "***********************" << endl;
@@ -76,7 +126,7 @@ void addPerson(AddressList * als){
         
         do{
             cin >> phone;
-            if(phone.size() != 10)
+            if(phone.size() != 11)
                 cout << "号码不合法，请重新输入：";
         }while(phone.size() != 11);
         als->personArr[als->m_Size].m_Phone = phone;
@@ -93,47 +143,49 @@ void addPerson(AddressList * als){
     }
 }
 
-// 显示联系人
+// 显示通讯录
 void showAddressList(AddressList * als){
-    
+    if(als->m_Size < 1){
+        cout << "当前记录为空" << endl;
+    }
+    for(int i = 0; i < als->m_Size; i++){
+//        cout << "姓名：" << als->personArr[i].m_Name
+//        << "\t性别：" << (als->personArr[i].m_Sex == 1 ? "男" : "女") << endl
+//        << "\t年龄：" << als->personArr[i].m_Age << endl
+//        << "\t电话号码：" << als->personArr[i].m_Phone << endl
+//        << "\t住址：" << als->personArr[i].m_Address << endl << endl;
+        showPerson(als->personArr[i]);
+    }
 }
 
-int main() {
-    int select = 0;
-    AddressList als;
-    als.m_Size = 0;
-    
-    while(true){
-        
-        showMenu();
-        
-        cin >> select;
-        
-        switch(select){
-            case 1:// 1、增加联系人
-                addPerson(&als);
-                break;
-            case 2:// 2、显示联系人
-                break;
-            case 3:// 3、删除联系人
-                break;
-            case 4:// 4、查找联系人
-                break;
-            case 5:// 5、修改联系人
-                break;
-            case 6:// 6、清空联系人
-                break;
-            case 0:// 0、退出通讯录
-                cout << "welcome to use address list manager system next time" << endl;
-                cout << "press any key to continue......" << endl;
-                getchar();
-                return 0;
-                break;
-            default:
-                break;
+// 显示联系人
+void showPerson(Person person){
+    cout << "姓名：" << person.m_Name
+    << "\t性别：" << (person.m_Sex == 1 ? "男" : "女") << endl
+    << "\t年龄：" << person.m_Age << endl
+    << "\t电话号码：" << person.m_Phone << endl
+    << "\t住址：" << person.m_Address << endl << endl;
+}
+
+// 搜索联系人，存在返回下标，不存在返回-1
+int isExist(AddressList * als, string name){
+    for(int i = 0; i < als->m_Size; i++){
+        if(als->personArr[i].m_Name == name){
+            return i;
         }
-        system("clear");
-        
     }
-    return 0;
+    return -1;
+}
+
+void searcherPerson(AddressList * als){
+    string name;
+    cout << "请输入要查找的联系人姓名：";
+    cin >> name;
+    int index = isExist(als, name);
+    if(index != -1){
+        showPerson(als->personArr[index]);
+    }else{
+        cout << "联系人不存在" << endl;
+    }
+    
 }
