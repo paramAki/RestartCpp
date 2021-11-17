@@ -15,6 +15,7 @@
 		C557A5C02744FC7F00DE2F73 /* referencesBasicSyntax.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5BF2744FC7F00DE2F73 /* referencesBasicSyntax.cpp */; };
 		C557A5C2274502BC00DE2F73 /* referenceAsParam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5C1274502BC00DE2F73 /* referenceAsParam.cpp */; };
 		C557A5C4274503EA00DE2F73 /* referenceAsReturnValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5C3274503EA00DE2F73 /* referenceAsReturnValue.cpp */; };
+		C557A5C62745137B00DE2F73 /* referencecConstant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5C52745137B00DE2F73 /* referencecConstant.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		C557A5BF2744FC7F00DE2F73 /* referencesBasicSyntax.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = referencesBasicSyntax.cpp; sourceTree = "<group>"; };
 		C557A5C1274502BC00DE2F73 /* referenceAsParam.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = referenceAsParam.cpp; sourceTree = "<group>"; };
 		C557A5C3274503EA00DE2F73 /* referenceAsReturnValue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = referenceAsReturnValue.cpp; sourceTree = "<group>"; };
+		C557A5C52745137B00DE2F73 /* referencecConstant.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = referencecConstant.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				C557A5BF2744FC7F00DE2F73 /* referencesBasicSyntax.cpp */,
 				C557A5C1274502BC00DE2F73 /* referenceAsParam.cpp */,
 				C557A5C3274503EA00DE2F73 /* referenceAsReturnValue.cpp */,
+				C557A5C52745137B00DE2F73 /* referencecConstant.cpp */,
 			);
 			path = CppCore;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				C557A5B12744B92200DE2F73 /* main.cpp in Sources */,
 				C557A5B82744B95300DE2F73 /* globalArea.cpp in Sources */,
 				C557A5C4274503EA00DE2F73 /* referenceAsReturnValue.cpp in Sources */,
+				C557A5C62745137B00DE2F73 /* referencecConstant.cpp in Sources */,
 				C557A5C02744FC7F00DE2F73 /* referencesBasicSyntax.cpp in Sources */,
 				C557A5BA2744EE4000DE2F73 /* stackArea.cpp in Sources */,
 				C557A5BE2744F7D200DE2F73 /* operatorNew.cpp in Sources */,
