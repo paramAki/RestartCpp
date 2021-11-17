@@ -17,7 +17,8 @@
 //static int s_g_b = 10;
 //
 //int main(){
-//    // 内存四区--全局区
+//    // 内存四区--代码区、全局区、栈区、堆区
+//    // 全局区
 //    // 存放全局变量、静态变量、常量
 //    // 常量区中存放const修饰的全局常量和字符串常量
 //    int a = 10;
@@ -28,7 +29,7 @@
 //
 //    static int s_a = 10;
 //    static int s_b = 10;
-//    
+//
 //    cout << "局部变量a地址：" << (long)&a << endl;
 //    cout << "局部变量b地址：" << (long)&b << endl;
 //    cout << "const修饰的局部变量a的地址：" << (long)&c_l_a << endl;
