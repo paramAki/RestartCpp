@@ -36,6 +36,7 @@ void searcherPerson(AddressList * als);
 void deletePerson(AddressList * als);
 void editPerson(AddressList * als, int index);
 void modifyPerson(AddressList * als);
+void emptyAddressList(AddressList * als);
 
 int main() {
     int select = 0;
@@ -65,6 +66,7 @@ int main() {
                 modifyPerson(&als);
                 break;
             case 6:// 6、清空联系人
+                emptyAddressList(&als);
                 break;
             case 0:// 0、退出通讯录
                 cout << "welcome to use address list manager system next time" << endl;
@@ -271,3 +273,7 @@ void modifyPerson(AddressList * als){
     }
 }
 
+void emptyAddressList(AddressList * als){
+    als->m_Size = 0;
+    cout << "通讯录已清空" << endl;
+}
