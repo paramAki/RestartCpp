@@ -19,6 +19,7 @@
 		C557A5C82745250500DE2F73 /* functionDefaultParam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5C72745250500DE2F73 /* functionDefaultParam.cpp */; };
 		C557A5CA2745E6D700DE2F73 /* functionReload.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5C92745E6D600DE2F73 /* functionReload.cpp */; };
 		C557A5CC2745F23900DE2F73 /* classAndObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5CB2745F23900DE2F73 /* classAndObject.cpp */; };
+		C557A5CE2746351500DE2F73 /* classStudent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5CD2746351500DE2F73 /* classStudent.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +48,7 @@
 		C557A5C72745250500DE2F73 /* functionDefaultParam.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = functionDefaultParam.cpp; sourceTree = "<group>"; };
 		C557A5C92745E6D600DE2F73 /* functionReload.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = functionReload.cpp; sourceTree = "<group>"; };
 		C557A5CB2745F23900DE2F73 /* classAndObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classAndObject.cpp; sourceTree = "<group>"; };
+		C557A5CD2746351500DE2F73 /* classStudent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classStudent.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				C557A5C72745250500DE2F73 /* functionDefaultParam.cpp */,
 				C557A5C92745E6D600DE2F73 /* functionReload.cpp */,
 				C557A5CB2745F23900DE2F73 /* classAndObject.cpp */,
+				C557A5CD2746351500DE2F73 /* classStudent.cpp */,
 			);
 			path = CppCore;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				C557A5C2274502BC00DE2F73 /* referenceAsParam.cpp in Sources */,
 				C557A5CA2745E6D700DE2F73 /* functionReload.cpp in Sources */,
 				C557A5C82745250500DE2F73 /* functionDefaultParam.cpp in Sources */,
+				C557A5CE2746351500DE2F73 /* classStudent.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
