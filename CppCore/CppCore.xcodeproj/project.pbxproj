@@ -21,6 +21,7 @@
 		C557A5CC2745F23900DE2F73 /* classAndObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5CB2745F23900DE2F73 /* classAndObject.cpp */; };
 		C557A5CE2746351500DE2F73 /* classStudent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5CD2746351500DE2F73 /* classStudent.cpp */; };
 		C557A5D027463AB300DE2F73 /* classPermission.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5CF27463AB300DE2F73 /* classPermission.cpp */; };
+		C557A5D227463D8E00DE2F73 /* classAndStruct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5D127463D8E00DE2F73 /* classAndStruct.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +52,7 @@
 		C557A5CB2745F23900DE2F73 /* classAndObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classAndObject.cpp; sourceTree = "<group>"; };
 		C557A5CD2746351500DE2F73 /* classStudent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classStudent.cpp; sourceTree = "<group>"; };
 		C557A5CF27463AB300DE2F73 /* classPermission.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classPermission.cpp; sourceTree = "<group>"; };
+		C557A5D127463D8E00DE2F73 /* classAndStruct.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classAndStruct.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				C557A5CB2745F23900DE2F73 /* classAndObject.cpp */,
 				C557A5CD2746351500DE2F73 /* classStudent.cpp */,
 				C557A5CF27463AB300DE2F73 /* classPermission.cpp */,
+				C557A5D127463D8E00DE2F73 /* classAndStruct.cpp */,
 			);
 			path = CppCore;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 				C557A5BA2744EE4000DE2F73 /* stackArea.cpp in Sources */,
 				C557A5CC2745F23900DE2F73 /* classAndObject.cpp in Sources */,
 				C557A5BE2744F7D200DE2F73 /* operatorNew.cpp in Sources */,
+				C557A5D227463D8E00DE2F73 /* classAndStruct.cpp in Sources */,
 				C557A5C2274502BC00DE2F73 /* referenceAsParam.cpp in Sources */,
 				C557A5CA2745E6D700DE2F73 /* functionReload.cpp in Sources */,
 				C557A5C82745250500DE2F73 /* functionDefaultParam.cpp in Sources */,
