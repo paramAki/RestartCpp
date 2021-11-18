@@ -17,6 +17,7 @@
 		C557A5C4274503EA00DE2F73 /* referenceAsReturnValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5C3274503EA00DE2F73 /* referenceAsReturnValue.cpp */; };
 		C557A5C62745137B00DE2F73 /* referencecConstant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5C52745137B00DE2F73 /* referencecConstant.cpp */; };
 		C557A5C82745250500DE2F73 /* functionDefaultParam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5C72745250500DE2F73 /* functionDefaultParam.cpp */; };
+		C557A5CA2745E6D700DE2F73 /* functionReload.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5C92745E6D600DE2F73 /* functionReload.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		C557A5C3274503EA00DE2F73 /* referenceAsReturnValue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = referenceAsReturnValue.cpp; sourceTree = "<group>"; };
 		C557A5C52745137B00DE2F73 /* referencecConstant.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = referencecConstant.cpp; sourceTree = "<group>"; };
 		C557A5C72745250500DE2F73 /* functionDefaultParam.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = functionDefaultParam.cpp; sourceTree = "<group>"; };
+		C557A5C92745E6D600DE2F73 /* functionReload.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = functionReload.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				C557A5C3274503EA00DE2F73 /* referenceAsReturnValue.cpp */,
 				C557A5C52745137B00DE2F73 /* referencecConstant.cpp */,
 				C557A5C72745250500DE2F73 /* functionDefaultParam.cpp */,
+				C557A5C92745E6D600DE2F73 /* functionReload.cpp */,
 			);
 			path = CppCore;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				C557A5BA2744EE4000DE2F73 /* stackArea.cpp in Sources */,
 				C557A5BE2744F7D200DE2F73 /* operatorNew.cpp in Sources */,
 				C557A5C2274502BC00DE2F73 /* referenceAsParam.cpp in Sources */,
+				C557A5CA2745E6D700DE2F73 /* functionReload.cpp in Sources */,
 				C557A5C82745250500DE2F73 /* functionDefaultParam.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
