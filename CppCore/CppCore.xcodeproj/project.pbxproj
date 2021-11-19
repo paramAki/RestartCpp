@@ -13,6 +13,7 @@
 		C50198BC27479830002AF252 /* classClassificationOfConstructors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C50198BB27479830002AF252 /* classClassificationOfConstructors.cpp */; };
 		C50198BE2747A296002AF252 /* classTimeToCallCopyConstructors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C50198BD2747A296002AF252 /* classTimeToCallCopyConstructors.cpp */; };
 		C50198C02747BB2B002AF252 /* classConstructorRules.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C50198BF2747BB2B002AF252 /* classConstructorRules.cpp */; };
+		C50198C22747BE48002AF252 /* classDeepCopyAndShallowCopy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C50198C12747BE48002AF252 /* classDeepCopyAndShallowCopy.cpp */; };
 		C557A5B12744B92200DE2F73 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5B02744B92200DE2F73 /* main.cpp */; };
 		C557A5B82744B95300DE2F73 /* globalArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5B72744B95300DE2F73 /* globalArea.cpp */; };
 		C557A5BA2744EE4000DE2F73 /* stackArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5B92744EE4000DE2F73 /* stackArea.cpp */; };
@@ -49,6 +50,7 @@
 		C50198BB27479830002AF252 /* classClassificationOfConstructors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classClassificationOfConstructors.cpp; sourceTree = "<group>"; };
 		C50198BD2747A296002AF252 /* classTimeToCallCopyConstructors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classTimeToCallCopyConstructors.cpp; sourceTree = "<group>"; };
 		C50198BF2747BB2B002AF252 /* classConstructorRules.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classConstructorRules.cpp; sourceTree = "<group>"; };
+		C50198C12747BE48002AF252 /* classDeepCopyAndShallowCopy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classDeepCopyAndShallowCopy.cpp; sourceTree = "<group>"; };
 		C557A5AD2744B92200DE2F73 /* CppCore */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CppCore; sourceTree = BUILT_PRODUCTS_DIR; };
 		C557A5B02744B92200DE2F73 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C557A5B72744B95300DE2F73 /* globalArea.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = globalArea.cpp; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				C50198BB27479830002AF252 /* classClassificationOfConstructors.cpp */,
 				C50198BD2747A296002AF252 /* classTimeToCallCopyConstructors.cpp */,
 				C50198BF2747BB2B002AF252 /* classConstructorRules.cpp */,
+				C50198C12747BE48002AF252 /* classDeepCopyAndShallowCopy.cpp */,
 			);
 			path = CppCore;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				C50198C02747BB2B002AF252 /* classConstructorRules.cpp in Sources */,
 				C557A5D027463AB300DE2F73 /* classPermission.cpp in Sources */,
 				C50198BC27479830002AF252 /* classClassificationOfConstructors.cpp in Sources */,
+				C50198C22747BE48002AF252 /* classDeepCopyAndShallowCopy.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
