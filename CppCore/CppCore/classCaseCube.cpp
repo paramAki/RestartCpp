@@ -37,11 +37,13 @@
 //    int getL(){
 //        return m_L;
 //    }
-//    int getS(){
-//        return 2 * (m_H * m_L + m_L * m_W + m_H * m_W);
+//    int getS(Cube &c){
+//        m_S = 2 * (m_H * m_L + m_L * m_W + m_H * m_W);
+//        return m_S;
 //    }
-//    int getV(){
-//        return m_H * m_L * m_W;
+//    int getV(Cube &c){
+//        m_V = m_H * m_L * m_W;
+//        return m_V;
 //    }
 //};
 //
@@ -59,8 +61,8 @@
 //    c2.setW(20);
 //    c2.setL(20);
 //    
-//    c1.getS();
-//    c1.getV();
+//    c1.getS(c1);
+//    c1.getV(c1);
 //    
 //    isSame(c1, c2);
 //    
