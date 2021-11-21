@@ -21,6 +21,7 @@
 		C509B175274A51DD00FDF888 /* classEmptyPointVisitFunc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C509B174274A51DD00FDF888 /* classEmptyPointVisitFunc.cpp */; };
 		C509B177274A59F700FDF888 /* classConst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C509B176274A59F700FDF888 /* classConst.cpp */; };
 		C509B179274A657F00FDF888 /* classFriend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C509B178274A657F00FDF888 /* classFriend.cpp */; };
+		C509B17B274A694E00FDF888 /* classAsFriend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C509B17A274A694E00FDF888 /* classAsFriend.cpp */; };
 		C557A5B12744B92200DE2F73 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5B02744B92200DE2F73 /* main.cpp */; };
 		C557A5B82744B95300DE2F73 /* globalArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5B72744B95300DE2F73 /* globalArea.cpp */; };
 		C557A5BA2744EE4000DE2F73 /* stackArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5B92744EE4000DE2F73 /* stackArea.cpp */; };
@@ -65,6 +66,7 @@
 		C509B174274A51DD00FDF888 /* classEmptyPointVisitFunc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classEmptyPointVisitFunc.cpp; sourceTree = "<group>"; };
 		C509B176274A59F700FDF888 /* classConst.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classConst.cpp; sourceTree = "<group>"; };
 		C509B178274A657F00FDF888 /* classFriend.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classFriend.cpp; sourceTree = "<group>"; };
+		C509B17A274A694E00FDF888 /* classAsFriend.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classAsFriend.cpp; sourceTree = "<group>"; };
 		C557A5AD2744B92200DE2F73 /* CppCore */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CppCore; sourceTree = BUILT_PRODUCTS_DIR; };
 		C557A5B02744B92200DE2F73 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C557A5B72744B95300DE2F73 /* globalArea.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = globalArea.cpp; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				C50198BF2747BB2B002AF252 /* classConstructorRules.cpp */,
 				C509B176274A59F700FDF888 /* classConst.cpp */,
 				C509B178274A657F00FDF888 /* classFriend.cpp */,
+				C509B17A274A694E00FDF888 /* classAsFriend.cpp */,
 			);
 			path = CppCore;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				C509B179274A657F00FDF888 /* classFriend.cpp in Sources */,
 				C557A5BC2744F44A00DE2F73 /* heapArea.cpp in Sources */,
 				C50198BA27476084002AF252 /* classConstructorsAndDestructors.cpp in Sources */,
+				C509B17B274A694E00FDF888 /* classAsFriend.cpp in Sources */,
 				C557A5B12744B92200DE2F73 /* main.cpp in Sources */,
 				C557A5B82744B95300DE2F73 /* globalArea.cpp in Sources */,
 				C509B175274A51DD00FDF888 /* classEmptyPointVisitFunc.cpp in Sources */,
