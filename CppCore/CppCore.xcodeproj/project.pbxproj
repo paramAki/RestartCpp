@@ -16,6 +16,7 @@
 		C50198C22747BE48002AF252 /* classDeepCopyAndShallowCopy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C50198C12747BE48002AF252 /* classDeepCopyAndShallowCopy.cpp */; };
 		C50198C42747C5C5002AF252 /* classInitList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C50198C32747C5C5002AF252 /* classInitList.cpp */; };
 		C509B16F2748E1C100FDF888 /* classClassAsMemberOfClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C509B16E2748E1C100FDF888 /* classClassAsMemberOfClass.cpp */; };
+		C509B1712748F21300FDF888 /* classStaticMembers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C509B1702748F21300FDF888 /* classStaticMembers.cpp */; };
 		C557A5B12744B92200DE2F73 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5B02744B92200DE2F73 /* main.cpp */; };
 		C557A5B82744B95300DE2F73 /* globalArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5B72744B95300DE2F73 /* globalArea.cpp */; };
 		C557A5BA2744EE4000DE2F73 /* stackArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5B92744EE4000DE2F73 /* stackArea.cpp */; };
@@ -55,6 +56,7 @@
 		C50198C12747BE48002AF252 /* classDeepCopyAndShallowCopy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classDeepCopyAndShallowCopy.cpp; sourceTree = "<group>"; };
 		C50198C32747C5C5002AF252 /* classInitList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classInitList.cpp; sourceTree = "<group>"; };
 		C509B16E2748E1C100FDF888 /* classClassAsMemberOfClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classClassAsMemberOfClass.cpp; sourceTree = "<group>"; };
+		C509B1702748F21300FDF888 /* classStaticMembers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classStaticMembers.cpp; sourceTree = "<group>"; };
 		C557A5AD2744B92200DE2F73 /* CppCore */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CppCore; sourceTree = BUILT_PRODUCTS_DIR; };
 		C557A5B02744B92200DE2F73 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C557A5B72744B95300DE2F73 /* globalArea.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = globalArea.cpp; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				C50198C12747BE48002AF252 /* classDeepCopyAndShallowCopy.cpp */,
 				C50198C32747C5C5002AF252 /* classInitList.cpp */,
 				C509B16E2748E1C100FDF888 /* classClassAsMemberOfClass.cpp */,
+				C509B1702748F21300FDF888 /* classStaticMembers.cpp */,
 			);
 			path = CppCore;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				C557A5C2274502BC00DE2F73 /* referenceAsParam.cpp in Sources */,
 				C557A5CA2745E6D700DE2F73 /* functionReload.cpp in Sources */,
 				C557A5C82745250500DE2F73 /* functionDefaultParam.cpp in Sources */,
+				C509B1712748F21300FDF888 /* classStaticMembers.cpp in Sources */,
 				C509B16F2748E1C100FDF888 /* classClassAsMemberOfClass.cpp in Sources */,
 				C50198BE2747A296002AF252 /* classTimeToCallCopyConstructors.cpp in Sources */,
 				C557A5CE2746351500DE2F73 /* classStudent.cpp in Sources */,
