@@ -9,10 +9,13 @@
 //using namespace std;
 //
 //class Person{
-//public:
+//    friend ostream& operator<<(ostream &cout, Person &p);
+//    friend Person operator+(Person &p1, Person &p2);
+//private:
 //    int m_A;
 //    int m_B;
 //
+//public:
 //    Person(){
 //        m_A = 10;
 //        m_B = 20;
@@ -36,14 +39,22 @@
 //    return temp;
 //}
 //
+//// 不能通过成员函数重载<< ,只能通过全局函数重载<<
+//ostream& operator<<(ostream &cout, Person &p){
+//    cout << "p.m_A = " << p.m_A << endl;
+//    cout << "p.m_B = " << p.m_B << endl;
+//    
+//    return cout;
+//}
+//
 //int main(){
 //    Person p1;
 //    Person p2;
 //
 //    Person p3 = p1 + p2;
-//    cout << "p3.m_A = " << p3.m_A << endl;
-//    cout << "p3.m_B = " << p3.m_B << endl;
-//
+////    cout << "p3.m_A = " << p3.m_A << endl;
+////    cout << "p3.m_B = " << p3.m_B << endl;
+//    cout << p3 << endl;// 重载后的<<可以输出Person类型的数据
 //
 //    return 0;
 //}
