@@ -43,6 +43,7 @@
 		C595A76C274E05E600BDA312 /* classReloadOperator--.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A76B274E05E600BDA312 /* classReloadOperator--.cpp */; };
 		C595A76E274E414500BDA312 /* classReloadOperator=.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A76D274E414500BDA312 /* classReloadOperator=.cpp */; };
 		C595A770274E45AC00BDA312 /* classReloadRelationOperator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A76F274E45AC00BDA312 /* classReloadRelationOperator.cpp */; };
+		C595A772274E6F6200BDA312 /* classReloadOperator().cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A771274E6F6200BDA312 /* classReloadOperator().cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -95,6 +96,7 @@
 		C595A76B274E05E600BDA312 /* classReloadOperator--.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "classReloadOperator--.cpp"; sourceTree = "<group>"; };
 		C595A76D274E414500BDA312 /* classReloadOperator=.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "classReloadOperator=.cpp"; sourceTree = "<group>"; };
 		C595A76F274E45AC00BDA312 /* classReloadRelationOperator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classReloadRelationOperator.cpp; sourceTree = "<group>"; };
+		C595A771274E6F6200BDA312 /* classReloadOperator().cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "classReloadOperator().cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 				C595A76B274E05E600BDA312 /* classReloadOperator--.cpp */,
 				C595A76D274E414500BDA312 /* classReloadOperator=.cpp */,
 				C595A76F274E45AC00BDA312 /* classReloadRelationOperator.cpp */,
+				C595A771274E6F6200BDA312 /* classReloadOperator().cpp */,
 			);
 			path = CppCore;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				C50198BA27476084002AF252 /* classConstructorsAndDestructors.cpp in Sources */,
 				C595A76E274E414500BDA312 /* classReloadOperator=.cpp in Sources */,
 				C509B17B274A694E00FDF888 /* classAsFriend.cpp in Sources */,
+				C595A772274E6F6200BDA312 /* classReloadOperator().cpp in Sources */,
 				C557A5B12744B92200DE2F73 /* main.cpp in Sources */,
 				C557A5B82744B95300DE2F73 /* globalArea.cpp in Sources */,
 				C509B175274A51DD00FDF888 /* classEmptyPointVisitFunc.cpp in Sources */,
