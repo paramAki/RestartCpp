@@ -24,6 +24,7 @@
 		C509B17B274A694E00FDF888 /* classAsFriend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C509B17A274A694E00FDF888 /* classAsFriend.cpp */; };
 		C509B17D274A6E0E00FDF888 /* classFunctionAsFriend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C509B17C274A6E0E00FDF888 /* classFunctionAsFriend.cpp */; };
 		C509B180274B698600FDF888 /* classOperatorReload.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C509B17F274B698600FDF888 /* classOperatorReload.cpp */; };
+		C509B182274B9A9200FDF888 /* classReloadOperator++.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C509B181274B9A9200FDF888 /* classReloadOperator++.cpp */; };
 		C557A5B12744B92200DE2F73 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5B02744B92200DE2F73 /* main.cpp */; };
 		C557A5B82744B95300DE2F73 /* globalArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5B72744B95300DE2F73 /* globalArea.cpp */; };
 		C557A5BA2744EE4000DE2F73 /* stackArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5B92744EE4000DE2F73 /* stackArea.cpp */; };
@@ -71,6 +72,7 @@
 		C509B17A274A694E00FDF888 /* classAsFriend.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classAsFriend.cpp; sourceTree = "<group>"; };
 		C509B17C274A6E0E00FDF888 /* classFunctionAsFriend.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classFunctionAsFriend.cpp; sourceTree = "<group>"; };
 		C509B17F274B698600FDF888 /* classOperatorReload.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classOperatorReload.cpp; sourceTree = "<group>"; };
+		C509B181274B9A9200FDF888 /* classReloadOperator++.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "classReloadOperator++.cpp"; sourceTree = "<group>"; };
 		C557A5AD2744B92200DE2F73 /* CppCore */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CppCore; sourceTree = BUILT_PRODUCTS_DIR; };
 		C557A5B02744B92200DE2F73 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C557A5B72744B95300DE2F73 /* globalArea.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = globalArea.cpp; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				C509B17A274A694E00FDF888 /* classAsFriend.cpp */,
 				C509B17C274A6E0E00FDF888 /* classFunctionAsFriend.cpp */,
 				C509B17F274B698600FDF888 /* classOperatorReload.cpp */,
+				C509B181274B9A9200FDF888 /* classReloadOperator++.cpp */,
 			);
 			path = CppCore;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				C557A5CC2745F23900DE2F73 /* classAndObject.cpp in Sources */,
 				C50198C42747C5C5002AF252 /* classInitList.cpp in Sources */,
 				C557A5BE2744F7D200DE2F73 /* operatorNew.cpp in Sources */,
+				C509B182274B9A9200FDF888 /* classReloadOperator++.cpp in Sources */,
 				C557A5D227463D8E00DE2F73 /* classAndStruct.cpp in Sources */,
 				C557A5C2274502BC00DE2F73 /* referenceAsParam.cpp in Sources */,
 				C557A5CA2745E6D700DE2F73 /* functionReload.cpp in Sources */,
