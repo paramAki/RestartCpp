@@ -42,6 +42,7 @@
 		C557A5D227463D8E00DE2F73 /* classAndStruct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5D127463D8E00DE2F73 /* classAndStruct.cpp */; };
 		C595A76C274E05E600BDA312 /* classReloadOperator--.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A76B274E05E600BDA312 /* classReloadOperator--.cpp */; };
 		C595A76E274E414500BDA312 /* classReloadOperator=.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A76D274E414500BDA312 /* classReloadOperator=.cpp */; };
+		C595A770274E45AC00BDA312 /* classReloadRelationOperator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A76F274E45AC00BDA312 /* classReloadRelationOperator.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -93,6 +94,7 @@
 		C557A5D127463D8E00DE2F73 /* classAndStruct.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classAndStruct.cpp; sourceTree = "<group>"; };
 		C595A76B274E05E600BDA312 /* classReloadOperator--.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "classReloadOperator--.cpp"; sourceTree = "<group>"; };
 		C595A76D274E414500BDA312 /* classReloadOperator=.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "classReloadOperator=.cpp"; sourceTree = "<group>"; };
+		C595A76F274E45AC00BDA312 /* classReloadRelationOperator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classReloadRelationOperator.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 				C509B181274B9A9200FDF888 /* classReloadOperator++.cpp */,
 				C595A76B274E05E600BDA312 /* classReloadOperator--.cpp */,
 				C595A76D274E414500BDA312 /* classReloadOperator=.cpp */,
+				C595A76F274E45AC00BDA312 /* classReloadRelationOperator.cpp */,
 			);
 			path = CppCore;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				C557A5C82745250500DE2F73 /* functionDefaultParam.cpp in Sources */,
 				C509B1712748F21300FDF888 /* classStaticMembers.cpp in Sources */,
 				C595A76C274E05E600BDA312 /* classReloadOperator--.cpp in Sources */,
+				C595A770274E45AC00BDA312 /* classReloadRelationOperator.cpp in Sources */,
 				C509B16F2748E1C100FDF888 /* classClassAsMemberOfClass.cpp in Sources */,
 				C50198BE2747A296002AF252 /* classTimeToCallCopyConstructors.cpp in Sources */,
 				C557A5CE2746351500DE2F73 /* classStudent.cpp in Sources */,
