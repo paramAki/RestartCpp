@@ -40,6 +40,7 @@
 		C557A5CE2746351500DE2F73 /* classStudent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5CD2746351500DE2F73 /* classStudent.cpp */; };
 		C557A5D027463AB300DE2F73 /* classPermission.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5CF27463AB300DE2F73 /* classPermission.cpp */; };
 		C557A5D227463D8E00DE2F73 /* classAndStruct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557A5D127463D8E00DE2F73 /* classAndStruct.cpp */; };
+		C595A76C274E05E600BDA312 /* classReloadOperator--.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A76B274E05E600BDA312 /* classReloadOperator--.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -89,6 +90,7 @@
 		C557A5CD2746351500DE2F73 /* classStudent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classStudent.cpp; sourceTree = "<group>"; };
 		C557A5CF27463AB300DE2F73 /* classPermission.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classPermission.cpp; sourceTree = "<group>"; };
 		C557A5D127463D8E00DE2F73 /* classAndStruct.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classAndStruct.cpp; sourceTree = "<group>"; };
+		C595A76B274E05E600BDA312 /* classReloadOperator--.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "classReloadOperator--.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				C509B17C274A6E0E00FDF888 /* classFunctionAsFriend.cpp */,
 				C509B17F274B698600FDF888 /* classOperatorReload.cpp */,
 				C509B181274B9A9200FDF888 /* classReloadOperator++.cpp */,
+				C595A76B274E05E600BDA312 /* classReloadOperator--.cpp */,
 			);
 			path = CppCore;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				C557A5CA2745E6D700DE2F73 /* functionReload.cpp in Sources */,
 				C557A5C82745250500DE2F73 /* functionDefaultParam.cpp in Sources */,
 				C509B1712748F21300FDF888 /* classStaticMembers.cpp in Sources */,
+				C595A76C274E05E600BDA312 /* classReloadOperator--.cpp in Sources */,
 				C509B16F2748E1C100FDF888 /* classClassAsMemberOfClass.cpp in Sources */,
 				C50198BE2747A296002AF252 /* classTimeToCallCopyConstructors.cpp in Sources */,
 				C557A5CE2746351500DE2F73 /* classStudent.cpp in Sources */,
