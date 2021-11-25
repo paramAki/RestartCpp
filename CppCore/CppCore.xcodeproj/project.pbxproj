@@ -52,6 +52,7 @@
 		C595A77E274F666C00BDA312 /* classPolymorphic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A77D274F666C00BDA312 /* classPolymorphic.cpp */; };
 		C595A780274F93CA00BDA312 /* classPolymorphicCase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A77F274F93CA00BDA312 /* classPolymorphicCase.cpp */; };
 		C595A782274F989900BDA312 /* abstractClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A781274F989900BDA312 /* abstractClass.cpp */; };
+		C595A784274F9ACC00BDA312 /* classPolymorphicCaseII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A783274F9ACC00BDA312 /* classPolymorphicCaseII.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -113,6 +114,7 @@
 		C595A77D274F666C00BDA312 /* classPolymorphic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classPolymorphic.cpp; sourceTree = "<group>"; };
 		C595A77F274F93CA00BDA312 /* classPolymorphicCase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classPolymorphicCase.cpp; sourceTree = "<group>"; };
 		C595A781274F989900BDA312 /* abstractClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = abstractClass.cpp; sourceTree = "<group>"; };
+		C595A783274F9ACC00BDA312 /* classPolymorphicCaseII.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classPolymorphicCaseII.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 				C595A77D274F666C00BDA312 /* classPolymorphic.cpp */,
 				C595A77F274F93CA00BDA312 /* classPolymorphicCase.cpp */,
 				C595A781274F989900BDA312 /* abstractClass.cpp */,
+				C595A783274F9ACC00BDA312 /* classPolymorphicCaseII.cpp */,
 			);
 			path = CppCore;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				C595A774274F403000BDA312 /* classInheritanceBase.cpp in Sources */,
 				C509B175274A51DD00FDF888 /* classEmptyPointVisitFunc.cpp in Sources */,
 				C509B173274A389900FDF888 /* classThisPoint.cpp in Sources */,
+				C595A784274F9ACC00BDA312 /* classPolymorphicCaseII.cpp in Sources */,
 				C557A5C4274503EA00DE2F73 /* referenceAsReturnValue.cpp in Sources */,
 				C50198B62746470A002AF252 /* classPrivateMembers.cpp in Sources */,
 				C557A5C62745137B00DE2F73 /* referencecConstant.cpp in Sources */,
