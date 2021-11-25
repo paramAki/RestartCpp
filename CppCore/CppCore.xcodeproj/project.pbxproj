@@ -46,6 +46,7 @@
 		C595A772274E6F6200BDA312 /* classReloadOperator().cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A771274E6F6200BDA312 /* classReloadOperator().cpp */; };
 		C595A774274F403000BDA312 /* classInheritanceBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A773274F403000BDA312 /* classInheritanceBase.cpp */; };
 		C595A776274F4EEA00BDA312 /* classInheritanceConstructorsAndDestructors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A775274F4EEA00BDA312 /* classInheritanceConstructorsAndDestructors.cpp */; };
+		C595A778274F55BD00BDA312 /* classInheritanceSameNameMembers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A777274F55BD00BDA312 /* classInheritanceSameNameMembers.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -101,6 +102,7 @@
 		C595A771274E6F6200BDA312 /* classReloadOperator().cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "classReloadOperator().cpp"; sourceTree = "<group>"; };
 		C595A773274F403000BDA312 /* classInheritanceBase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classInheritanceBase.cpp; sourceTree = "<group>"; };
 		C595A775274F4EEA00BDA312 /* classInheritanceConstructorsAndDestructors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classInheritanceConstructorsAndDestructors.cpp; sourceTree = "<group>"; };
+		C595A777274F55BD00BDA312 /* classInheritanceSameNameMembers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classInheritanceSameNameMembers.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 				C595A771274E6F6200BDA312 /* classReloadOperator().cpp */,
 				C595A773274F403000BDA312 /* classInheritanceBase.cpp */,
 				C595A775274F4EEA00BDA312 /* classInheritanceConstructorsAndDestructors.cpp */,
+				C595A777274F55BD00BDA312 /* classInheritanceSameNameMembers.cpp */,
 			);
 			path = CppCore;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				C557A5CC2745F23900DE2F73 /* classAndObject.cpp in Sources */,
 				C50198C42747C5C5002AF252 /* classInitList.cpp in Sources */,
 				C557A5BE2744F7D200DE2F73 /* operatorNew.cpp in Sources */,
+				C595A778274F55BD00BDA312 /* classInheritanceSameNameMembers.cpp in Sources */,
 				C509B182274B9A9200FDF888 /* classReloadOperator++.cpp in Sources */,
 				C595A776274F4EEA00BDA312 /* classInheritanceConstructorsAndDestructors.cpp in Sources */,
 				C557A5D227463D8E00DE2F73 /* classAndStruct.cpp in Sources */,
