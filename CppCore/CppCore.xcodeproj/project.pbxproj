@@ -49,6 +49,7 @@
 		C595A778274F55BD00BDA312 /* classInheritanceSameNameMembers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A777274F55BD00BDA312 /* classInheritanceSameNameMembers.cpp */; };
 		C595A77A274F5D8100BDA312 /* classMultipleInheritance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A779274F5D8100BDA312 /* classMultipleInheritance.cpp */; };
 		C595A77C274F621D00BDA312 /* classRhombusInheritance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A77B274F621D00BDA312 /* classRhombusInheritance.cpp */; };
+		C595A77E274F666C00BDA312 /* classPolymorphic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A77D274F666C00BDA312 /* classPolymorphic.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -107,6 +108,7 @@
 		C595A777274F55BD00BDA312 /* classInheritanceSameNameMembers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classInheritanceSameNameMembers.cpp; sourceTree = "<group>"; };
 		C595A779274F5D8100BDA312 /* classMultipleInheritance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classMultipleInheritance.cpp; sourceTree = "<group>"; };
 		C595A77B274F621D00BDA312 /* classRhombusInheritance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classRhombusInheritance.cpp; sourceTree = "<group>"; };
+		C595A77D274F666C00BDA312 /* classPolymorphic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classPolymorphic.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 				C595A777274F55BD00BDA312 /* classInheritanceSameNameMembers.cpp */,
 				C595A779274F5D8100BDA312 /* classMultipleInheritance.cpp */,
 				C595A77B274F621D00BDA312 /* classRhombusInheritance.cpp */,
+				C595A77D274F666C00BDA312 /* classPolymorphic.cpp */,
 			);
 			path = CppCore;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				C509B182274B9A9200FDF888 /* classReloadOperator++.cpp in Sources */,
 				C595A776274F4EEA00BDA312 /* classInheritanceConstructorsAndDestructors.cpp in Sources */,
 				C557A5D227463D8E00DE2F73 /* classAndStruct.cpp in Sources */,
+				C595A77E274F666C00BDA312 /* classPolymorphic.cpp in Sources */,
 				C557A5C2274502BC00DE2F73 /* referenceAsParam.cpp in Sources */,
 				C557A5CA2745E6D700DE2F73 /* functionReload.cpp in Sources */,
 				C557A5C82745250500DE2F73 /* functionDefaultParam.cpp in Sources */,
