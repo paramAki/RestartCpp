@@ -44,6 +44,7 @@
 		C595A76E274E414500BDA312 /* classReloadOperator=.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A76D274E414500BDA312 /* classReloadOperator=.cpp */; };
 		C595A770274E45AC00BDA312 /* classReloadRelationOperator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A76F274E45AC00BDA312 /* classReloadRelationOperator.cpp */; };
 		C595A772274E6F6200BDA312 /* classReloadOperator().cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A771274E6F6200BDA312 /* classReloadOperator().cpp */; };
+		C595A774274F403000BDA312 /* classInheritanceBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A773274F403000BDA312 /* classInheritanceBase.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -97,6 +98,7 @@
 		C595A76D274E414500BDA312 /* classReloadOperator=.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "classReloadOperator=.cpp"; sourceTree = "<group>"; };
 		C595A76F274E45AC00BDA312 /* classReloadRelationOperator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classReloadRelationOperator.cpp; sourceTree = "<group>"; };
 		C595A771274E6F6200BDA312 /* classReloadOperator().cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "classReloadOperator().cpp"; sourceTree = "<group>"; };
+		C595A773274F403000BDA312 /* classInheritanceBase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classInheritanceBase.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 				C595A76D274E414500BDA312 /* classReloadOperator=.cpp */,
 				C595A76F274E45AC00BDA312 /* classReloadRelationOperator.cpp */,
 				C595A771274E6F6200BDA312 /* classReloadOperator().cpp */,
+				C595A773274F403000BDA312 /* classInheritanceBase.cpp */,
 			);
 			path = CppCore;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				C595A772274E6F6200BDA312 /* classReloadOperator().cpp in Sources */,
 				C557A5B12744B92200DE2F73 /* main.cpp in Sources */,
 				C557A5B82744B95300DE2F73 /* globalArea.cpp in Sources */,
+				C595A774274F403000BDA312 /* classInheritanceBase.cpp in Sources */,
 				C509B175274A51DD00FDF888 /* classEmptyPointVisitFunc.cpp in Sources */,
 				C509B173274A389900FDF888 /* classThisPoint.cpp in Sources */,
 				C557A5C4274503EA00DE2F73 /* referenceAsReturnValue.cpp in Sources */,
