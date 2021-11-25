@@ -48,6 +48,7 @@
 		C595A776274F4EEA00BDA312 /* classInheritanceConstructorsAndDestructors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A775274F4EEA00BDA312 /* classInheritanceConstructorsAndDestructors.cpp */; };
 		C595A778274F55BD00BDA312 /* classInheritanceSameNameMembers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A777274F55BD00BDA312 /* classInheritanceSameNameMembers.cpp */; };
 		C595A77A274F5D8100BDA312 /* classMultipleInheritance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A779274F5D8100BDA312 /* classMultipleInheritance.cpp */; };
+		C595A77C274F621D00BDA312 /* classRhombusInheritance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A77B274F621D00BDA312 /* classRhombusInheritance.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -105,6 +106,7 @@
 		C595A775274F4EEA00BDA312 /* classInheritanceConstructorsAndDestructors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classInheritanceConstructorsAndDestructors.cpp; sourceTree = "<group>"; };
 		C595A777274F55BD00BDA312 /* classInheritanceSameNameMembers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classInheritanceSameNameMembers.cpp; sourceTree = "<group>"; };
 		C595A779274F5D8100BDA312 /* classMultipleInheritance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classMultipleInheritance.cpp; sourceTree = "<group>"; };
+		C595A77B274F621D00BDA312 /* classRhombusInheritance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classRhombusInheritance.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 				C595A775274F4EEA00BDA312 /* classInheritanceConstructorsAndDestructors.cpp */,
 				C595A777274F55BD00BDA312 /* classInheritanceSameNameMembers.cpp */,
 				C595A779274F5D8100BDA312 /* classMultipleInheritance.cpp */,
+				C595A77B274F621D00BDA312 /* classRhombusInheritance.cpp */,
 			);
 			path = CppCore;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				C509B177274A59F700FDF888 /* classConst.cpp in Sources */,
 				C557A5D027463AB300DE2F73 /* classPermission.cpp in Sources */,
 				C50198BC27479830002AF252 /* classClassificationOfConstructors.cpp in Sources */,
+				C595A77C274F621D00BDA312 /* classRhombusInheritance.cpp in Sources */,
 				C50198C22747BE48002AF252 /* classDeepCopyAndShallowCopy.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
