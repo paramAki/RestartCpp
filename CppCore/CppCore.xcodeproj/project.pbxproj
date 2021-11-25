@@ -51,6 +51,7 @@
 		C595A77C274F621D00BDA312 /* classRhombusInheritance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A77B274F621D00BDA312 /* classRhombusInheritance.cpp */; };
 		C595A77E274F666C00BDA312 /* classPolymorphic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A77D274F666C00BDA312 /* classPolymorphic.cpp */; };
 		C595A780274F93CA00BDA312 /* classPolymorphicCase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A77F274F93CA00BDA312 /* classPolymorphicCase.cpp */; };
+		C595A782274F989900BDA312 /* abstractClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A781274F989900BDA312 /* abstractClass.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -111,6 +112,7 @@
 		C595A77B274F621D00BDA312 /* classRhombusInheritance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classRhombusInheritance.cpp; sourceTree = "<group>"; };
 		C595A77D274F666C00BDA312 /* classPolymorphic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classPolymorphic.cpp; sourceTree = "<group>"; };
 		C595A77F274F93CA00BDA312 /* classPolymorphicCase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classPolymorphicCase.cpp; sourceTree = "<group>"; };
+		C595A781274F989900BDA312 /* abstractClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = abstractClass.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 				C595A77B274F621D00BDA312 /* classRhombusInheritance.cpp */,
 				C595A77D274F666C00BDA312 /* classPolymorphic.cpp */,
 				C595A77F274F93CA00BDA312 /* classPolymorphicCase.cpp */,
+				C595A781274F989900BDA312 /* abstractClass.cpp */,
 			);
 			path = CppCore;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				C50198C42747C5C5002AF252 /* classInitList.cpp in Sources */,
 				C557A5BE2744F7D200DE2F73 /* operatorNew.cpp in Sources */,
 				C595A778274F55BD00BDA312 /* classInheritanceSameNameMembers.cpp in Sources */,
+				C595A782274F989900BDA312 /* abstractClass.cpp in Sources */,
 				C509B182274B9A9200FDF888 /* classReloadOperator++.cpp in Sources */,
 				C595A776274F4EEA00BDA312 /* classInheritanceConstructorsAndDestructors.cpp in Sources */,
 				C557A5D227463D8E00DE2F73 /* classAndStruct.cpp in Sources */,
