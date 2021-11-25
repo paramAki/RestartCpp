@@ -50,6 +50,7 @@
 		C595A77A274F5D8100BDA312 /* classMultipleInheritance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A779274F5D8100BDA312 /* classMultipleInheritance.cpp */; };
 		C595A77C274F621D00BDA312 /* classRhombusInheritance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A77B274F621D00BDA312 /* classRhombusInheritance.cpp */; };
 		C595A77E274F666C00BDA312 /* classPolymorphic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A77D274F666C00BDA312 /* classPolymorphic.cpp */; };
+		C595A780274F93CA00BDA312 /* classPolymorphicCase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C595A77F274F93CA00BDA312 /* classPolymorphicCase.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -109,6 +110,7 @@
 		C595A779274F5D8100BDA312 /* classMultipleInheritance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classMultipleInheritance.cpp; sourceTree = "<group>"; };
 		C595A77B274F621D00BDA312 /* classRhombusInheritance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classRhombusInheritance.cpp; sourceTree = "<group>"; };
 		C595A77D274F666C00BDA312 /* classPolymorphic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classPolymorphic.cpp; sourceTree = "<group>"; };
+		C595A77F274F93CA00BDA312 /* classPolymorphicCase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classPolymorphicCase.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +186,7 @@
 				C595A779274F5D8100BDA312 /* classMultipleInheritance.cpp */,
 				C595A77B274F621D00BDA312 /* classRhombusInheritance.cpp */,
 				C595A77D274F666C00BDA312 /* classPolymorphic.cpp */,
+				C595A77F274F93CA00BDA312 /* classPolymorphicCase.cpp */,
 			);
 			path = CppCore;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 				C595A76E274E414500BDA312 /* classReloadOperator=.cpp in Sources */,
 				C509B17B274A694E00FDF888 /* classAsFriend.cpp in Sources */,
 				C595A772274E6F6200BDA312 /* classReloadOperator().cpp in Sources */,
+				C595A780274F93CA00BDA312 /* classPolymorphicCase.cpp in Sources */,
 				C557A5B12744B92200DE2F73 /* main.cpp in Sources */,
 				C557A5B82744B95300DE2F73 /* globalArea.cpp in Sources */,
 				C595A774274F403000BDA312 /* classInheritanceBase.cpp in Sources */,
